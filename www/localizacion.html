@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>App prueba</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/fonts/webFonts/roboto_regular_macroman/stylesheet.css">
+  </head>
+  <body>
+  
+	<header>
+		<img class="atras" src="img/back.png">
+		<img class="menu" src="img/burger.png">
+		<div class="cierre"></div>
+	</header>
+	
+    <section id="localizacion">
+		<a class="lista" href="#" id="posicionGeo">Posicion actual</a>
+		<a class="lista" href="#" id="iniciarGeo">Iniciar localizacion</a>
+		<a class="lista" href="#" id="detenerGeo">Detener localizacion</a>
+		<a class="lista" href="#" id="limpiarGeo">Limpiar resultados</a>
+		<div id="resultado"></div>
+		<div id="googleMap"></div>
+	</section>
+	
+	<script src="phonegap.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="js/fastclick.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/codigo.js"></script>
+	
+  </body>
+</html>

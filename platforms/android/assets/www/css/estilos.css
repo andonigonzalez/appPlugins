@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: robotoregular;
+}
+header{
+	height: 52px;
+	background-color: white;
+	padding: 2px;
+	border-bottom: 2px solid #ccc;
+}
+header img{
+	width: 48px;
+	height: 48px;
+}
+.atras{
+	float: left;
+}
+.menu{
+	float: right;
+}
+.lista{
+	text-decoration: none;
+	color: #212121;
+	background-color: white;
+	display: block;
+	font-size: 20px;
+	padding: 5px 15px;
+	border-bottom: 1px solid #eee;
+}
+#info p{
+	margin-top: 10px;
+}

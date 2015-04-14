@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.plugins" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <name>Plugins</name>
+    <description>
+        App para probar diferentes plugins.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        Andoni Gonzalez
+    </author>
+    <content src="index.html" />
+    <icon src="img/plugin.png" />
+    <access origin="*" />
+    <gap:plugin name="org.apache.cordova.device" source="plugins.cordova.io" />
+    <gap:plugin name="org.apache.cordova.dialogs" source="plugins.cordova.io" />
+    <gap:plugin name="org.apache.cordova.network-information" source="plugins.cordova.io" />
+    <gap:plugin name="org.apache.cordova.camera" source="plugins.cordova.io" />
+</widget>
